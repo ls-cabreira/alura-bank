@@ -4,7 +4,6 @@ export default function ageIsValid (input) {
     if (!dateCheck(birthDate)) {
         input.setCustomValidity('invalid');
     }
-    
 }
 
 
